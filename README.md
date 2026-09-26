@@ -1,104 +1,101 @@
 <div align="center">
 
-# Louis Lenouvel
+<img src="./assets/metro-banner.svg" alt="Louis Lenouvel, Data & ML Engineer, Paris" width="100%" />
 
-**Data Scientist & ML Engineer | Data Engineering background**
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/louis-lenouvel/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lenouvellouis.github.io/portfolio/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr.lenouvel.louis@gmail.com)
+<a href="https://lenouvellouis.github.io/portfolio/">
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&pause=1400&color=FFCF33&center=true&vCenter=true&width=760&height=40&lines=I+build+data+pipelines%2C+and+the+models+that+run+on+them.;Now+boarding%3A+FlowForge%2C+Airflow+%2B+dbt+on+SNCF+data;Sovereign+RAG%3A+100%25+local%2C+zero+cloud+AI;Undercurrents%3A+predicting+Tame+Impala+setlists;Still+working+six+months+from+now.+That's+the+point." alt="Typing intro" />
+</a>
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-ffcf33?style=for-the-badge&logo=astro&logoColor=111a2b)](https://lenouvellouis.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111a2b?style=for-the-badge&logo=linkedin&logoColor=ffcf33)](https://www.linkedin.com/in/louis-lenouvel/)
+[![Email](https://img.shields.io/badge/Email-111a2b?style=for-the-badge&logo=gmail&logoColor=ffcf33)](mailto:mr.lenouvel.louis@gmail.com)
 
 </div>
 
----
+## ▸ About
 
-## About Me
+ISEP graduate (class of 2026). I spent three years as a data engineer at [**IKIGAI, Games for Citizens**](https://www.gfc.ikigai.games/), keeping data pipelines running in production: xAPI migrations over millions of statements, FastAPI services, Docker, CI/CD, PostgreSQL.
 
-Final-year AI & Data Science engineering student at **ISEP Paris** | Data Engineer at [**IKIGAI - Games for Citizens**](https://www.gfc.ikigai.games/)
-
-I build machine learning systems end-to-end, from data pipelines to deployed models. My focus is on applied ML and GenAI: retrieval-augmented generation, computer vision, and putting models into production with the engineering rigor they need to actually work.
-
-Three years of alternance shipping data infrastructure in production gave me a strong foundation in FastAPI, Docker, CI/CD, and PostgreSQL. I now bring that engineering mindset to ML and GenAI projects.
+These days I mostly work on machine learning and GenAI, with the same obsession: it should still work six months from now. Self-hosted RAG, MLOps scaffolding, ELT pipelines, and a few side projects that are just for fun.
 
 ```python
-class MLEngineer:
-    def __init__(self):
-        self.name = "Louis Lenouvel"
-        self.focus = ["Applied ML", "GenAI / RAG", "Computer Vision", "MLOps"]
-        self.stack = ["PyTorch", "FastAPI", "ChromaDB", "MLflow", "Docker"]
-        self.background = "3 years shipping data pipelines in production"
-        self.looking_for = "VIE abroad / Data Scientist & ML Engineer roles"
+class Louis:
+    role      = "Data & ML Engineer"
+    based_in  = "Paris, FR"
+    shipped   = "3 years of production data pipelines @ IKIGAI"
+    focus     = ["GenAI / RAG", "MLOps", "Data pipelines", "Applied ML"]
+    boarding  = "FlowForge: Airflow + dbt on SNCF railway data"
+    speaks    = ["FR", "EN"]
 ```
 
----
+## ▸ Prochains départs · Next departures
 
-## Tech Stack
+Every project is a metro line. The right column updates live from each repo.
+
+| Line | Project | What it does | Stack | Live |
+|:---:|---|---|---|---|
+| ![1](https://img.shields.io/badge/-1-e0312b?style=for-the-badge) | [**Sovereign RAG**](https://lenouvellouis.github.io/portfolio/#/projets/sovereign-rag) | Ask questions to PDFs, 100% local: hybrid search, reranking, sentence-level citations, prompt-injection and PII guards | Ollama · Mistral 7B · ChromaDB · FastAPI | ![internal](https://img.shields.io/badge/internal-GitLab-111a2b?style=flat-square&labelColor=111a2b&color=3c4658) |
+| ![2](https://img.shields.io/badge/-2-8b5cf6?style=for-the-badge) | [**Undercurrents**](https://github.com/LenouvelLouis/Undercurrents) | 18 years of Tame Impala setlists (~750 shows): clustering, song-appearance prediction, psychedelic vinyl UI | FastAPI · SQLite · React · Vite | ![last](https://img.shields.io/github/last-commit/LenouvelLouis/Undercurrents?style=flat-square&label=last%20run&labelColor=111a2b&color=ffcf33) |
+| ![3](https://img.shields.io/badge/-3-00a36c?style=for-the-badge) | [**Vélib' Agent**](https://github.com/LenouvelLouis/velib-agent-go) | French conversational agent on Paris Vélib' stations, SSE streaming, swappable LLM provider | Go · trpc-agent-go · PostgreSQL · Ollama | ![last](https://img.shields.io/github/last-commit/LenouvelLouis/velib-agent-go?style=flat-square&label=last%20run&labelColor=111a2b&color=ffcf33) |
+| ![4](https://img.shields.io/badge/-4-f5a100?style=for-the-badge) | [**FlowForge**](https://github.com/LenouvelLouis/FlowForge) | Modern ELT pipeline on SNCF railway data, fully local via Docker Compose *(in progress)* | Airflow · dbt · PostgreSQL · Docker | ![last](https://img.shields.io/github/last-commit/LenouvelLouis/FlowForge?style=flat-square&label=last%20run&labelColor=111a2b&color=ffcf33) |
+| ![5](https://img.shields.io/badge/-5-0ea5e9?style=for-the-badge) | [**MetroVision MLOps**](https://github.com/LenouvelLouis/MetroVision-MLOps) | Industrialising a Paris Metro pictogram detector: serving, registry, drift monitoring | FastAPI · Kubernetes · MLflow · Prometheus · Evidently | ![last](https://img.shields.io/github/last-commit/LenouvelLouis/MetroVision-MLOps?style=flat-square&label=last%20run&labelColor=111a2b&color=ffcf33) |
+| ![6](https://img.shields.io/badge/-6-14b8a6?style=for-the-badge) | [**PowerShift**](https://github.com/LenouvelLouis/PowerShift) | Energy grid simulation with PyPSA optimal power flow and real KNMI weather data | PyPSA · FastAPI · React | ![last](https://img.shields.io/github/last-commit/LenouvelLouis/PowerShift?style=flat-square&label=last%20run&labelColor=111a2b&color=ffcf33) |
+| ![7](https://img.shields.io/badge/-7-ec4899?style=for-the-badge) | [**DeepRetriev**](https://github.com/LenouvelLouis/DeepRetriev) | From-scratch RAG pipeline, every component explicit, no LangChain | sentence-transformers · ChromaDB · Ollama | ![last](https://img.shields.io/github/last-commit/LenouvelLouis/DeepRetriev?style=flat-square&label=last%20run&labelColor=111a2b&color=ffcf33) |
+
+<sub>Full map with every station: [lenouvellouis.github.io/portfolio](https://lenouvellouis.github.io/portfolio/)</sub>
+
+## ▸ Stack
 
 <div align="center">
 
-### AI & Machine Learning
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
+<img src="https://skillicons.dev/icons?i=py,go,ts,java,cs,postgres,sqlite,mongodb,redis&theme=dark" alt="Languages and databases" /><br/>
+<img src="https://skillicons.dev/icons?i=fastapi,docker,kubernetes,githubactions,grafana,prometheus,linux,git,azure&theme=dark" alt="Backend and infra" /><br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,react,vite,tailwind,astro,unity&theme=dark" alt="ML and frontend" />
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+<br/>
 
-### Backend & Data Engineering
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### Frontend & Other
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-111a2b?style=flat-square&logo=ollama&logoColor=ffcf33)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-111a2b?style=flat-square&logoColor=ffcf33)
+![MLflow](https://img.shields.io/badge/MLflow-111a2b?style=flat-square&logo=mlflow&logoColor=ffcf33)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-111a2b?style=flat-square&logo=huggingface&logoColor=ffcf33)
+![Airflow](https://img.shields.io/badge/Airflow-111a2b?style=flat-square&logo=apacheairflow&logoColor=ffcf33)
+![dbt](https://img.shields.io/badge/dbt-111a2b?style=flat-square&logo=dbt&logoColor=ffcf33)
+![Evidently](https://img.shields.io/badge/Evidently-111a2b?style=flat-square&logoColor=ffcf33)
+![PyPSA](https://img.shields.io/badge/PyPSA-111a2b?style=flat-square&logoColor=ffcf33)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-111a2b?style=flat-square&logo=sqlalchemy&logoColor=ffcf33)
 
 </div>
 
----
-
-## What I Work On
-
-- **GenAI & RAG** — Retrieval pipelines with sentence-transformers, vector stores, and experiment tracking
-- **Computer Vision** — Image classification and detection with PyTorch and classical CV techniques
-- **MLOps** — Reproducible training, model versioning, and deployment of ML services
-- **Production ML APIs** — FastAPI services with Docker, CI/CD, and PostgreSQL for ML use cases
-
----
-
-## GitHub Stats
+## ▸ Live traffic
 
 <div align="center">
-  <img src="https://github-readme-stats.zohan.tech/api?username=LenouvelLouis&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.zohan.tech/api/top-langs/?username=LenouvelLouis&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.zohan.tech/api?username=LenouvelLouis&show_icons=true&include_all_commits=true&count_private=true&bg_color=111a2b&title_color=ffcf33&text_color=c3c9d3&icon_color=ffcf33&hide_border=true&border_radius=14" height="170" alt="GitHub stats" />
+  <img src="https://github-readme-stats.zohan.tech/api/top-langs/?username=LenouvelLouis&layout=compact&langs_count=8&bg_color=111a2b&title_color=ffcf33&text_color=c3c9d3&hide_border=true&border_radius=14" height="170" alt="Top languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=LenouvelLouis&background=111A2B&stroke=262F3F&ring=FFCF33&fire=FFCF33&currStreakNum=E9ECF1&sideNums=E9ECF1&currStreakLabel=FFCF33&sideLabels=8A93A3&dates=8A93A3&hide_border=true&border_radius=14" width="70%" alt="Contribution streak" />
 </div>
 
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LenouvelLouis/LenouvelLouis/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LenouvelLouis/LenouvelLouis/output/snake-light.svg" />
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/LenouvelLouis/LenouvelLouis/output/snake-dark.svg" />
+</picture>
+
+## ▸ Last stations served
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=LenouvelLouis&theme=tokyonight&hide_border=true" width="60%" />
-</div>
 
----
+<br/>
 
-<div align="center">
-
-**Currently looking for VIE positions abroad and Data Scientist / ML Engineer roles**
+<img src="https://komarev.com/ghpvc/?username=LenouvelLouis&label=passengers&color=ffcf33&style=flat-square" alt="Profile views" />
 
 </div>

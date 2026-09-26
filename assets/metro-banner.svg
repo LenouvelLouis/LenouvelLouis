@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t">
+  <title id="t">Louis Lenouvel, Data &amp; ML Engineer, Paris</title>
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#111a2b" stop-opacity="1"/>
+      <stop offset="1" stop-color="#111a2b" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
+    <path id="l1" d="M470 70 H760 Q790 70 808 96 L872 190 Q890 216 920 216 H1200"/>
+    <path id="l2" d="M470 146 H1200"/>
+    <path id="l3" d="M600 290 H690 Q720 290 738 264 L850 70 Q866 42 896 42 H1200"/>
+    <path id="l4" d="M1010 0 V320"/>
+    <path id="l5" d="M470 250 H980 Q1010 250 1028 226 L1090 130 Q1106 106 1134 106 H1200"/>
+  </defs>
+  <style>
+    .name{font:800 54px 'Schibsted Grotesk','Inter','Segoe UI',system-ui,sans-serif;fill:#e9ecf1;letter-spacing:-1.5px}
+    .role{font:500 19px 'IBM Plex Mono','SFMono-Regular',Consolas,monospace;fill:#ffcf33}
+    .meta{font:400 15px 'IBM Plex Mono','SFMono-Regular',Consolas,monospace;fill:#8a93a3}
+    .tick{font:600 14px 'IBM Plex Mono','SFMono-Regular',Consolas,monospace;fill:#111a2b;letter-spacing:1px}
+    .ln{fill:none;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+    .st{fill:#e9ecf1;stroke:#111a2b;stroke-width:3}
+    .ic{fill:#e9ecf1;stroke:#111a2b;stroke-width:4}
+    .live{animation:pulse 1.6s ease-in-out infinite;transform-origin:52px 206px}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="#111a2b"/>
+    <g opacity="0.9">
+      <use xlink:href="#l4" href="#l4" class="ln" stroke="#f5a100"/>
+      <use xlink:href="#l2" href="#l2" class="ln" stroke="#8b5cf6"/>
+      <use xlink:href="#l5" href="#l5" class="ln" stroke="#0ea5e9"/>
+      <use xlink:href="#l1" href="#l1" class="ln" stroke="#e0312b"/>
+      <use xlink:href="#l3" href="#l3" class="ln" stroke="#00a36c"/>
+    </g>
+    <g>
+      <circle class="st" cx="630" cy="70" r="7"/><circle class="st" cx="700" cy="70" r="7"/>
+      <circle class="st" cx="640" cy="146" r="7"/><circle class="st" cx="920" cy="146" r="7"/><circle class="st" cx="1120" cy="146" r="7"/>
+      <circle class="st" cx="960" cy="42" r="7"/><circle class="st" cx="1110" cy="42" r="7"/>
+      <circle class="st" cx="1140" cy="216" r="7"/><circle class="st" cx="660" cy="250" r="7"/><circle class="st" cx="880" cy="250" r="7"/>
+      <circle class="ic" cx="806" cy="146" r="11"/><circle class="ic" cx="1010" cy="216" r="11"/><circle class="ic" cx="1010" cy="146" r="11"/>
+      <circle class="ic" cx="1010" cy="42" r="11"/><circle class="ic" cx="746" cy="250" r="11"/><circle class="ic" cx="1010" cy="250" r="11"/>
+    </g>
+    <g fill="#ffcf33" stroke="#111a2b" stroke-width="2">
+      <rect x="-9" y="-6" width="18" height="12" rx="5"><animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#l1" href="#l1"/></animateMotion></rect>
+      <rect x="-9" y="-6" width="18" height="12" rx="5"><animateMotion dur="7s" begin="-2s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#l2" href="#l2"/></animateMotion></rect>
+      <rect x="-9" y="-6" width="18" height="12" rx="5"><animateMotion dur="10s" begin="-4s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#l3" href="#l3"/></animateMotion></rect>
+      <rect x="-9" y="-6" width="18" height="12" rx="5"><animateMotion dur="5s" begin="-1s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#l4" href="#l4"/></animateMotion></rect>
+      <rect x="-9" y="-6" width="18" height="12" rx="5"><animateMotion dur="8s" begin="-3s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#l5" href="#l5"/></animateMotion></rect>
+    </g>
+    <rect x="0" y="0" width="470" height="286" fill="#111a2b"/>
+    <rect x="469" y="0" width="220" height="286" fill="url(#fade)"/>
+    <text x="44" y="118" class="name">Louis Lenouvel</text>
+    <text x="46" y="156" class="role">Data &amp; ML Engineer · Paris</text>
+    <circle class="live" cx="52" cy="206" r="6" fill="#4ade80"/>
+    <text x="68" y="211" class="meta">in service · pipelines, RAG &amp; MLOps</text>
+    <rect x="0" y="286" width="1200" height="34" fill="#ffcf33"/>
+    <g>
+      <text y="309" class="tick">
+        <tspan x="0" textLength="1260" lengthAdjust="spacing">PROCHAINS DÉPARTS  ▸  L1 SOVEREIGN RAG  ·  L2 UNDERCURRENTS  ·  L3 VÉLIB' AGENT  ·  L4 FLOWFORGE  ·  L5 METROVISION MLOPS  ·  L6 POWERSHIFT  ·  </tspan>
+        <tspan x="1300" textLength="1260" lengthAdjust="spacing">PROCHAINS DÉPARTS  ▸  L1 SOVEREIGN RAG  ·  L2 UNDERCURRENTS  ·  L3 VÉLIB' AGENT  ·  L4 FLOWFORGE  ·  L5 METROVISION MLOPS  ·  L6 POWERSHIFT  ·  </tspan>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1300 0" dur="30s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+</svg>
