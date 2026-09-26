@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://lenouvellouis.github.io/portfolio/">
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&pause=1400&color=FFCF33&center=true&vCenter=true&width=760&height=40&lines=I+build+data+pipelines%2C+and+the+models+that+run+on+them.;Now+boarding%3A+FlowForge%2C+Airflow+%2B+dbt+on+SNCF+data;Sovereign+RAG%3A+100%25+local%2C+zero+cloud+AI;Undercurrents%3A+predicting+Tame+Impala+setlists;Still+working+six+months+from+now.+That's+the+point." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&pause=1400&color=FFCF33&center=true&vCenter=true&width=760&height=40&lines=I+build+data+pipelines%2C+and+the+models+that+run+on+them.;Sovereign+RAG%3A+100%25+local%2C+zero+cloud+AI;Undercurrents%3A+predicting+Tame+Impala+setlists;Still+working+six+months+from+now.+That's+the+point." alt="Typing intro" />
 </a>
 
 <br/>
@@ -28,7 +28,6 @@ class Louis:
     based_in  = "Paris, FR"
     shipped   = "3 years of production data pipelines @ IKIGAI"
     focus     = ["GenAI / RAG", "MLOps", "Data pipelines", "Applied ML"]
-    boarding  = "FlowForge: Airflow + dbt on SNCF railway data"
     speaks    = ["FR", "EN"]
 ```
 
